@@ -1,0 +1,28 @@
+{
+    "name": "qingbing/pf-tools-ip",
+    "description": "工具——IPV4解析成对应的地址区域信息",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "ipdb",
+        "17monipdb",
+        "ip"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-helper": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "src/tools",
+            "IpSupports\\": "src/supports"
+        }
+    }
+}
